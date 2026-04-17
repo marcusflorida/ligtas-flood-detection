@@ -68,7 +68,7 @@ export default function SmsPanel({ smsAlerts, contacts, onAddContact, onEditCont
               </div>
             </div>
           ))}
-          {contacts.length === 0 && <div className="empty-state">No contacts saved. Add emergency contacts above.</div>}
+          {contacts.length === 0 && <div className="empty-state">No contacts saved.</div>}
         </div>
       </div>
     </div>
