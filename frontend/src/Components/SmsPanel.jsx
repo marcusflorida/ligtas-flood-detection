@@ -46,9 +46,6 @@ export default function SmsPanel({ smsAlerts, contacts, onAddContact, onEditCont
           <div className="panel-title">
             <Icon name="contact" size={13} color="#64748b" /> SAVED CONTACTS
           </div>
-          <button className="add-btn" onClick={onAddContact} style={{ height: 28, padding: "0 12px", fontSize: "0.65rem" }}>
-            <Icon name="plus" size={12} color="#fff" /> ADD CONTACT
-          </button>
         </div>
         <div className="sms-scroll">
           {contacts.map(c => (
